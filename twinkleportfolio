@@ -1,2 +1,186 @@
-portfolio.html
-image.jpg
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twinkle Krishna - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header img {
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            margin-top: 10px;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        table th {
+            background-color: #f2f2f2;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            padding: 8px;
+            background-color: #f9f9f9;
+            margin-bottom: 10px;
+            border-radius: 4px;
+        }
+
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .contact-form label {
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        .contact-form input, .contact-form textarea {
+            padding: 10px;
+            margin-bottom: 12px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        .contact-form button {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color: #555;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <img src="C:/home/student/Downloads" alt="Twinkle Krishna">
+        <h1>Twinkle Krishna</h1>
+        <p>Student | Aspiring Developer</p>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Twinkle Krishna, a student passionate about software development and programming. Currently, I am focusing on improving my skills in Python and Java, with an interest in building real-world applications.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <table>
+            <tr>
+                <th>Language</th>
+                <th>Proficiency</th>
+            </tr>
+            <tr>
+                <td>Java</td>
+                <td>Beginner</td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>Intermediate</td>
+            </tr>
+            <tr>
+                <td>C</td>
+                <td>Intermediate</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="projects">
+        <h2>Academic Projects</h2>
+        <ul>
+            <li>Project 1: [Project Title] - Description of your academic project.</li>
+            <li>Project 2: [Project Title] - Description of your academic project.</li>
+            <li>Project 3: [Project Title] - Description of your academic project.</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out to me for collaboration, queries, or just to connect.</p>
+        <form class="contact-form" action="mailto:twinkle224922@sahrdaya.ac.in" method="POST" enctype="text/plain">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Connect with me:</p>
+        <a href="https://github.com/TwinkleKrishna" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/twinklekrishna" target="_blank">LinkedIn</a>
+        <a href="path_to_resume.pdf" target="_blank">Resume</a>
+    </footer>
+
+</body>
+
+</html>
